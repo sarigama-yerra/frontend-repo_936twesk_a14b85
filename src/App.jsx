@@ -1,6 +1,7 @@
 import Hero from './components/Hero'
 import Planets from './components/Planets'
 import Gameplay from './components/Gameplay'
+import Game from './components/Game'
 import CTA from './components/CTA'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <nav className="hidden gap-6 text-blue-100/80 sm:flex">
             <a href="#planets" className="hover:text-white">Worlds</a>
             <a href="#gameplay" className="hover:text-white">Gameplay</a>
+            <a href="#play" className="hover:text-white">Play</a>
             <a href="/test" className="hover:text-white">System</a>
           </nav>
         </div>
@@ -24,12 +26,13 @@ function App() {
         <Hero />
         <Planets />
         <Gameplay />
+        <Game />
         <CTA />
       </main>
 
       <footer className="border-t border-white/10 bg-slate-950/80 py-10">
         <div className="mx-auto max-w-7xl px-6 text-blue-300/70">
-          <p className="text-sm">© {new Date().getFullYear()} Planetfall Dominion — Concept Showcase</p>
+          <p className="text-sm">© {new Date().getFullYear()} Planetfall Dominion — Prototype</p>
         </div>
       </footer>
     </div>
